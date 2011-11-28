@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA0A1F791483215E009966D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0A1F781483215E009966D0 /* UIKit.framework */; };
+		AA0A1F7B1483215E009966D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0A1F7A1483215E009966D0 /* Foundation.framework */; };
+		AA0A1F811483215E009966D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA0A1F7F1483215E009966D0 /* InfoPlist.strings */; };
+		AA0A1F831483215E009966D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A1F821483215E009966D0 /* main.m */; };
+		AA0A1F871483215E009966D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A1F861483215E009966D0 /* AppDelegate.m */; };
+		AA0A1F8A1483215E009966D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A1F891483215E009966D0 /* ViewController.m */; };
+		AA0A1F8D1483215E009966D0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA0A1F8B1483215E009966D0 /* ViewController.xib */; };
+		AA0A1F9B14832235009966D0 /* MPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A1F9814832235009966D0 /* MPlayerView.m */; };
+		AA0A1F9C14832235009966D0 /* TimeLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A1F9A14832235009966D0 /* TimeLineView.m */; };
+		AA0A1FA214832410009966D0 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0A1FA114832410009966D0 /* MediaPlayer.framework */; };
+		AA0A1FA414832437009966D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0A1FA314832437009966D0 /* CoreGraphics.framework */; };
+		AA0A1FA714833A02009966D0 /* PreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A1FA614833A02009966D0 /* PreviewView.m */; };
+		AA0A1FAA14833FBE009966D0 /* MovieURL.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A1FA914833FBE009966D0 /* MovieURL.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA0A1F741483215E009966D0 /* Videotater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Videotater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0A1F781483215E009966D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AA0A1F7A1483215E009966D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA0A1F7E1483215E009966D0 /* Videotater-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Videotater-Info.plist"; sourceTree = "<group>"; };
+		AA0A1F801483215E009966D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA0A1F821483215E009966D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA0A1F841483215E009966D0 /* Videotater-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Videotater-Prefix.pch"; sourceTree = "<group>"; };
+		AA0A1F851483215E009966D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA0A1F861483215E009966D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA0A1F881483215E009966D0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA0A1F891483215E009966D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA0A1F8C1483215E009966D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		AA0A1F9714832235009966D0 /* MPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPlayerView.h; sourceTree = "<group>"; };
+		AA0A1F9814832235009966D0 /* MPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPlayerView.m; sourceTree = "<group>"; };
+		AA0A1F9914832235009966D0 /* TimeLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLineView.h; sourceTree = "<group>"; };
+		AA0A1F9A14832235009966D0 /* TimeLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLineView.m; sourceTree = "<group>"; };
+		AA0A1FA114832410009966D0 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		AA0A1FA314832437009966D0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AA0A1FA514833A02009966D0 /* PreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewView.h; sourceTree = "<group>"; };
+		AA0A1FA614833A02009966D0 /* PreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewView.m; sourceTree = "<group>"; };
+		AA0A1FA814833FBE009966D0 /* MovieURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieURL.h; sourceTree = "<group>"; };
+		AA0A1FA914833FBE009966D0 /* MovieURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieURL.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA0A1F711483215E009966D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0A1FA414832437009966D0 /* CoreGraphics.framework in Frameworks */,
+				AA0A1FA214832410009966D0 /* MediaPlayer.framework in Frameworks */,
+				AA0A1F791483215E009966D0 /* UIKit.framework in Frameworks */,
+				AA0A1F7B1483215E009966D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA0A1F691483215E009966D0 = {
+			isa = PBXGroup;
+			children = (
+				AA0A1F7C1483215E009966D0 /* Videotater */,
+				AA0A1F771483215E009966D0 /* Frameworks */,
+				AA0A1F751483215E009966D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA0A1F751483215E009966D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA0A1F741483215E009966D0 /* Videotater.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA0A1F771483215E009966D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA0A1FA314832437009966D0 /* CoreGraphics.framework */,
+				AA0A1FA114832410009966D0 /* MediaPlayer.framework */,
+				AA0A1F781483215E009966D0 /* UIKit.framework */,
+				AA0A1F7A1483215E009966D0 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA0A1F7C1483215E009966D0 /* Videotater */ = {
+			isa = PBXGroup;
+			children = (
+				AA0A1FA01483225F009966D0 /* Annotation Step */,
+				AA0A1F9F14832252009966D0 /* Timeline Refinement */,
+				AA0A1F9E14832244009966D0 /* Video Selection */,
+				AA0A1F851483215E009966D0 /* AppDelegate.h */,
+				AA0A1F861483215E009966D0 /* AppDelegate.m */,
+				AA0A1F7D1483215E009966D0 /* Supporting Files */,
+			);
+			path = Videotater;
+			sourceTree = "<group>";
+		};
+		AA0A1F7D1483215E009966D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA0A1F7E1483215E009966D0 /* Videotater-Info.plist */,
+				AA0A1F7F1483215E009966D0 /* InfoPlist.strings */,
+				AA0A1F821483215E009966D0 /* main.m */,
+				AA0A1F841483215E009966D0 /* Videotater-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA0A1F9E14832244009966D0 /* Video Selection */ = {
+			isa = PBXGroup;
+			children = (
+				AA0A1F881483215E009966D0 /* ViewController.h */,
+				AA0A1F891483215E009966D0 /* ViewController.m */,
+				AA0A1F8B1483215E009966D0 /* ViewController.xib */,
+				AA0A1FA514833A02009966D0 /* PreviewView.h */,
+				AA0A1FA614833A02009966D0 /* PreviewView.m */,
+				AA0A1FA814833FBE009966D0 /* MovieURL.h */,
+				AA0A1FA914833FBE009966D0 /* MovieURL.m */,
+			);
+			name = "Video Selection";
+			sourceTree = "<group>";
+		};
+		AA0A1F9F14832252009966D0 /* Timeline Refinement */ = {
+			isa = PBXGroup;
+			children = (
+				AA0A1F9714832235009966D0 /* MPlayerView.h */,
+				AA0A1F9814832235009966D0 /* MPlayerView.m */,
+				AA0A1F9914832235009966D0 /* TimeLineView.h */,
+				AA0A1F9A14832235009966D0 /* TimeLineView.m */,
+			);
+			name = "Timeline Refinement";
+			sourceTree = "<group>";
+		};
+		AA0A1FA01483225F009966D0 /* Annotation Step */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Annotation Step";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA0A1F731483215E009966D0 /* Videotater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0A1F901483215E009966D0 /* Build configuration list for PBXNativeTarget "Videotater" */;
+			buildPhases = (
+				AA0A1F701483215E009966D0 /* Sources */,
+				AA0A1F711483215E009966D0 /* Frameworks */,
+				AA0A1F721483215E009966D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Videotater;
+			productName = Videotater;
+			productReference = AA0A1F741483215E009966D0 /* Videotater.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA0A1F6B1483215E009966D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Ga Tech";
+			};
+			buildConfigurationList = AA0A1F6E1483215E009966D0 /* Build configuration list for PBXProject "Videotater" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA0A1F691483215E009966D0;
+			productRefGroup = AA0A1F751483215E009966D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA0A1F731483215E009966D0 /* Videotater */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA0A1F721483215E009966D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0A1F811483215E009966D0 /* InfoPlist.strings in Resources */,
+				AA0A1F8D1483215E009966D0 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA0A1F701483215E009966D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0A1F831483215E009966D0 /* main.m in Sources */,
+				AA0A1F871483215E009966D0 /* AppDelegate.m in Sources */,
+				AA0A1F8A1483215E009966D0 /* ViewController.m in Sources */,
+				AA0A1F9B14832235009966D0 /* MPlayerView.m in Sources */,
+				AA0A1F9C14832235009966D0 /* TimeLineView.m in Sources */,
+				AA0A1FA714833A02009966D0 /* PreviewView.m in Sources */,
+				AA0A1FAA14833FBE009966D0 /* MovieURL.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA0A1F7F1483215E009966D0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA0A1F801483215E009966D0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA0A1F8B1483215E009966D0 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA0A1F8C1483215E009966D0 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA0A1F8E1483215E009966D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		AA0A1F8F1483215E009966D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA0A1F911483215E009966D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Videotater/Videotater-Prefix.pch";
+				INFOPLIST_FILE = "Videotater/Videotater-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA0A1F921483215E009966D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Videotater/Videotater-Prefix.pch";
+				INFOPLIST_FILE = "Videotater/Videotater-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA0A1F6E1483215E009966D0 /* Build configuration list for PBXProject "Videotater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0A1F8E1483215E009966D0 /* Debug */,
+				AA0A1F8F1483215E009966D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA0A1F901483215E009966D0 /* Build configuration list for PBXNativeTarget "Videotater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0A1F911483215E009966D0 /* Debug */,
+				AA0A1F921483215E009966D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA0A1F6B1483215E009966D0 /* Project object */;
+}
